@@ -1,6 +1,12 @@
 package parsing_json;
+import java.util.ArrayList;
 
-public class ElementCollection {
+public class ElementCollection extends ArrayList{
+
+
+    public ElementCollection() {
+
+    }
 
     public Element findByAtomicNumber(int atomic_number) {
         return null;
@@ -13,4 +19,6 @@ public class ElementCollection {
     public ElementCollection where(String fieldName, Object value) {
         return null;
     }
+
+
 }
