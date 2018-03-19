@@ -5,7 +5,6 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static com.sun.tools.internal.xjc.reader.Ring.add;
 import static org.junit.Assert.*;
 
 public class ElementCollectionTest {
@@ -136,4 +135,3 @@ public class ElementCollectionTest {
 //
 //        assertEquals(12, this.elements.where("phase", "Gas").size());
 //    }
-//}

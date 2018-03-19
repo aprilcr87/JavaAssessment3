@@ -1,33 +1,29 @@
 package parsing_json;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Stream;
 
 public class Element extends ElementCollection {
-private String name;
-private String appearance;
-private Double Atomic_mass;
-private Double boil;
-private String category;
-private String color;
-private Double density;
-private String discovered_by;
-private Double melt;
-private Double molar_heat;
-private String named_by;
-private Object number;
-private Object period;
-private String phase;
-private String source;
-private String spectral_img;
-private String summary;
-private String symbol;
-private Object xpos;
-private Object ypos;
-private ArrayList<Integer> shells;
-
-private List<Element> elements = new ArrayList<>();
+    private String name;
+    private String appearance;
+    private Double Atomic_mass;
+    private Double boil;
+    private String category;
+    private String color;
+    private Double density;
+    private String discovered_by;
+    private Double melt;
+    private Double molar_heat;
+    private String named_by;
+    private Object number;
+    private Object period;
+    private String phase;
+    private String source;
+    private String spectral_img;
+    private String summary;
+    private String symbol;
+    private Object xpos;
+    private Object ypos;
+    private ArrayList<Integer> shells;
 
 
     public Element(String name, String appearance, Double Atomic_mass, Double boil, String category, String color, Double density, String discovered_by, Double melt, Double molar_heat, String named_by, Object number, Object period, String phase, String source, String spectral_img, String summary, String symbol, Object xpos, Object ypos, ArrayList<Integer> shells) {
@@ -136,16 +132,5 @@ private List<Element> elements = new ArrayList<>();
 
     public ArrayList<Integer> getShells() {
         return shells;
-    }
-    public List<Element> getElements(){
-        return elements;
-    }
-    public void setElements(List<Element> elements){
-        this.elements = elements;
-    }
-
-    @Override
-    public Stream stream() {
-        return null;
     }
 }
