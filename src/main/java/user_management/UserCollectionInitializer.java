@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.lang.reflect.Type;
 
 public class UserCollectionInitializer {
-    public static UserCollection generate() {
+    public static UserCollection generate() throws IOException{
         Gson gson = new Gson();
         try {
             String path = "/Users/aprilrivera/Dev/JavaAssessment3/src/main/resources/users.json";
